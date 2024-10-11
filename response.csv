@@ -1,0 +1,27 @@
+session_id,date,comment,longitude,question_id,question_text,option_index,response_text,answer
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,1,quelle est votre wilaya?,16,Alger,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,2,quel est votre age?,,45,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,3,quel est votre tranche d'age?,2,vieux,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,4,qu'est-ce que vous aimez boire?,1,eau,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,4,qu'est-ce que vous aimez boire?,2,jus,NaN
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,4,qu'est-ce que vous aimez boire?,3,coca cola,NaN
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,4,qu'est-ce que vous aimez boire?,3,response autres texte pour u1,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,5,donnez votre avis?,,,NaN
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,6,quelles sont les marques et les quantités que vous consommées ?,1,ifri:1L,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,6,quelles sont les marques et les quantités que vous consommées ?,2,coca:1L,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,6,quelles sont les marques et les quantités que vous consommées ?,3,ifri:2L,NaN
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,6,quelles sont les marques et les quantités que vous consommées ?,4,coca:2L,1
+1,10-Oct-2023 08:56:02.0000,champ chaine(texte) de la 1ère session,36.7610241,7,classez les boissons selon vos préférences,,coca-eau-ifri,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,1,quelle est votre wilaya?,07,Biskra,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,2,quel est votre age?,,35,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,3,quel est votre tranche d'age?,1,jeune,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,4,qu'est-ce que vous aimez boire?,1,eau,NaN
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,4,qu'est-ce que vous aimez boire?,2,jus,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,4,qu'est-ce que vous aimez boire?,3,coca cola,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,4,qu'est-ce que vous aimez boire?,3,,NaN
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,5,donner votre avis?,,je suis potomane,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,6,quelles sont les marques et les quantités que vous consommées ?,1,ifri:1L,NaN
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,6,quelles sont les marques et les quantités que vous consommées ?,2,coca:1L,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,6,quelles sont les marques et les quantités que vous consommées ?,3,ifri:2L,NaN
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,6,quelles sont les marques et les quantités que vous consommées ?,4,coca:2L,1
+2,22-Oct-2023 20:12:49.0000,champ chaine(texte) de la 2ième session,51.7610241,7,classez les boissons selon vos préférences,,eau-coca-ifri,1
