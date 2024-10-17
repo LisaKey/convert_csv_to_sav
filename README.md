@@ -1,5 +1,5 @@
-#### IN ENLIGSH 🇬🇧 
-# Convert .csv file to .sav file with python :snake:
+
+🇬🇧 # Convert .csv file to .sav file with python :snake:
 We used python :snake: to convert a csv file into a sav file with all the modifications needed to open it in IBM spss and be able to analyse our data.
 
 ## Introduction
@@ -17,8 +17,7 @@ The libraries :books: used are:
 ## what we have to do
 we carried out a major transformation on the csv file to obtain a suitable soap for analysing the data on the IBM spss
 ### Transformation steps :
-
-:pushpin: **Divide** the csv table into two parts: keep part of the session data and pivot the second part of the questions.
+- :pushpin: **Divide** the csv table into two parts: keep part of the session data and pivot the second part of the questions.
 - :pushpin: **Convert** the titles according to the question id and name the options and responses columns.
 - :pushpin: **Organise** the columns so that you have the options followed by their responses for each question.
 - :pushpin: **Distinguish** between free input columns.
@@ -57,8 +56,7 @@ we have two parts of data in the .csv file
 we will develop an additional column to distinguish mesure between ordinal and norminal measure for multiple-choice and single-choice questions. This will be implemented when the admin inserts the questions in the forme before the client provides answers.
 
 
-#### EN FRANCAIS 🇫🇷
-# Convertir un fichier .csv en un fichier .sav avec python :snake :
+🇫🇷 # Convertir un fichier .csv en un fichier .sav avec python :snake :
 Nous avons utilisé python :snake : pour convertir un fichier csv en un fichier sav avec toutes les modifications nécessaires pour l'ouvrir dans spss de IBM et pouvoir analyser nos données.
 
 ## Introduction
