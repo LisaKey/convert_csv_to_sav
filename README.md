@@ -42,21 +42,20 @@ This is an example of a [csv file](https://github.com/LisaKey/convert_csv_to_sav
 ## sav result
 This is the [sav file](https://github.com/LisaKey/convert_csv_to_sav/blob/main/response.sav) we want to have after transformations.
 
-## details about the csv content
+## Details about the csv content
 we have two parts of data in the .csv file
-#### :point_right: **firt part** Session or form information : 
-:pushpin: `session_id` : a unique identifier with numeric type, used as the form identifier.
-:pushpin: `localisation` (longitude) : with numeric type that is automatically recorded and with echelle measure like all numeric type.
-:pushpin: the `comment` : with chaine type and nominal measure similar others sting in sav file.
-:pushpin: `date` : with date type and ordinal measure.
-#### :point_right: **second part** Diffrent type of questions :
-:pushpin: `multiple option with a single choice` : examples Q_1 or Q_3, These are numeric type because option_index is an integer, and we generate value labels using the option_index.
-:pushpin: `simple numeric` : example Q_2, this type is numeric since users input an integer. It is identified when option_index is empty.
-:pushpin: `simple chaine` : Also identified by an empty option_index
+#### :point_right: :point_right: **firt part** Session or form information : 
+- :pushpin: `session_id` : a unique identifier with numeric type, used as the form identifier.
+- :pushpin: `localisation` (longitude) : with numeric type that is automatically recorded and with echelle measure like all numeric type.
+- :pushpin: the `comment` : with chaine type and nominal measure similar others sting in sav file.
+- :pushpin: `date` : with date type and ordinal measure.
+#### :point_right: :point_right: **second part** Diffrent type of questions :
+- :pushpin: `multiple option with a single choice` : examples Q_1 or Q_3, These are numeric type because option_index is an integer, and we generate value labels using the option_index.
+- :pushpin: `simple numeric` : example Q_2, this type is numeric since users input an integer. It is identified when option_index is empty.
+- :pushpin: `simple chaine` : Also identified by an empty option_index
    - simple input : example Q_5 is a basic text input in the form
    - reorderer list : example Q_7 considered as a chaine but but it requires users to reorder elements in the form.
-:pushpin: `multiple option with multiple choice` : 
-with ordinal measure
+- :pushpin: `multiple option with multiple choice` : with ordinal measure
    - simple question : example Q_4 with type contains multiple options with an "O" in the column name. The last option is "Others", considered as a string (like Q_5).
    - grid question : example Q_6 with type has a grid structure, allowing multiple choices. It is numeric and does not include an "Others" field.
 ### Note :
