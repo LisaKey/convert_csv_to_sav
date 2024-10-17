@@ -17,6 +17,7 @@ The libraries :books: used are:
 ## what we have to do
 we carried out a major transformation on the csv file to obtain a suitable soap for analysing the data on the IBM spss
 ### Transformation steps :
+
 :pushpin: **Divide** the csv table into two parts: keep part of the session data and pivot the second part of the questions.
 :pushpin: **Convert** the titles according to the question id and name the options and responses columns.
 :pushpin: **Organise** the columns so that you have the options followed by their responses for each question.
@@ -25,7 +26,7 @@ we carried out a major transformation on the csv file to obtain a suitable soap 
 :pushpin: **Rename** single choice of multiple option questions.
 :pushpin: **Create labels meta** for all columns.
 :pushpin: **Create measures meta** for all columns.
-:pushpin: Fill in the missings meta with -1 for questions with multiple options and free numeric fields.
+:pushpin: **Fill in the missings meta** with -1 for questions with multiple options and free numeric fields.
 
 ## csv source
 This is an example of a [csv file](https://github.com/LisaKey/convert_csv_to_sav/blob/main/response.csv) exported from the form.
