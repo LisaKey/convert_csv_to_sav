@@ -7,6 +7,7 @@ We have data exported from a form concerning customer opinions on their consumpt
 
 ## what we need
 The libraries :books: used are:
+
 :pushpin: `pandas`  
 :pushpin: `pyreadstat`  
 :pushpin: `sys`  
@@ -16,15 +17,15 @@ The libraries :books: used are:
 ## what we have to do
 we carried out a major transformation on the csv file to obtain a suitable soap for analysing the data on the IBM spss
 ### Transformation steps :
-:pushpin: **Divide** the csv table into two parts: keep part of the session data and pivot the second part of the questions
-:pushpin: **Convert** the titles according to the question id and name the options and responses columns
-:pushpin: **Organise** the columns so that you have the options followed by their responses for each question
-:pushpin: **Distinguish** between free input columns
-:pushpin: **Create values label meta** for multiple option questions
-:pushpin: **Rename** single choice of multiple option questions
+:pushpin: **Divide** the csv table into two parts: keep part of the session data and pivot the second part of the questions.
+:pushpin: **Convert** the titles according to the question id and name the options and responses columns.
+:pushpin: **Organise** the columns so that you have the options followed by their responses for each question.
+:pushpin: **Distinguish** between free input columns.
+:pushpin: **Create values label meta** for multiple option questions.
+:pushpin: **Rename** single choice of multiple option questions.
 :pushpin: **Create labels meta** for all columns.
 :pushpin: **Create measures meta** for all columns.
-:pushpin: Fill in the missings meta with -1 for questions with multiple options and free numeric fields
+:pushpin: Fill in the missings meta with -1 for questions with multiple options and free numeric fields.
 
 ## csv source
 This is an example of a [csv file](https://github.com/LisaKey/convert_csv_to_sav/blob/main/response.csv) exported from the form.
@@ -35,17 +36,18 @@ This is the [sav file](https://github.com/LisaKey/convert_csv_to_sav/blob/main/r
 ## details about the csv content
 we have two parts of data in the .csv file
 #### :point_right: **firt part** Session or form information : 
-##### :round_pushpin: session_id : a unique identifier with numeric type, used as the form identifier.
-##### :round_pushpin: localisation (longitude) : with numeric type that is automatically recorded and with echelle measure like all numeric type.
-##### :round_pushpin: the comment : with chaine type and nominal measure similar others sting in sav file.
-##### :round_pushpin: date : with date type and ordinal measure.
+:pushpin: `session_id` : a unique identifier with numeric type, used as the form identifier.
+:pushpin: `localisation` (longitude) : with numeric type that is automatically recorded and with echelle measure like all numeric type.
+:pushpin: the `comment` : with chaine type and nominal measure similar others sting in sav file.
+:pushpin: `date` : with date type and ordinal measure.
 #### :point_right: **second part** Diffrent type of questions :
-##### :round_pushpin: multiple option with a single choice : examples Q_1 or Q_3, These are numeric type because option_index is an integer, and we generate value labels using the option_index.
-##### :round_pushpin: simple numeric : example Q_2, this type is numeric since users input an integer. It is identified when option_index is empty.
-##### :round_pushpin: simple chaine : Also identified by an empty option_index
+:pushpin: `multiple option with a single choice` : examples Q_1 or Q_3, These are numeric type because option_index is an integer, and we generate value labels using the option_index.
+:pushpin: `simple numeric` : example Q_2, this type is numeric since users input an integer. It is identified when option_index is empty.
+:pushpin: `simple chaine` : Also identified by an empty option_index
    - simple input : example Q_5 is a basic text input in the form
    - reorderer list : example Q_7 considered as a chaine but but it requires users to reorder elements in the form.
-##### :round_pushpin: multiple option with multiple choice : with ordinal measure
+:pushpin: `multiple option with multiple choice` : 
+with ordinal measure
    - simple question : example Q_4 with type contains multiple options with an "O" in the column name. The last option is "Others", considered as a string (like Q_5).
    - grid question : example Q_6 with type has a grid structure, allowing multiple choices. It is numeric and does not include an "Others" field.
 ### Note :
@@ -63,7 +65,8 @@ Nous avons utilisé python :snake : pour convertir un fichier csv en un fichier 
 Nous disposons de données exportées d'un formulaire concernant les opinions de clients sur leur consommation de certaines marques. Ces données contiennent des informations sur la session telles que sa date, sa localisation géographique ou un commentaire et nous avons d'une autre part des informations (réponses des clients) pour des questions avec plusieurs options de réponse à choix multiples et également à choix unique comme aussi des réponses de champs de saisie libres avec données numériques ou texte.
 
 ## Ce dont nous avons besoin
-Les bibliothèques :books : utilisées sont :
+Les bibliothèques :books: utilisées sont :
+
 :pushpin: `pandas`  
 :pushpin: `pyreadstat`  
 :pushpin: `sys`  
